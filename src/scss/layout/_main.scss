@@ -1,1 +1,47 @@
+main{
+    background-color: $color-header;
+}
+main section h2{
+  color: $color-suptitle;
+  padding-top:25px;
+  padding-left:12px;
+  width: 244px;
+  height: 30px;
+  flex-grow: 0;
+  margin: 0 46px 32px 0;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 2.14;
+}
 
+main section h3{
+  color:$color-title-section;
+  padding-left:12px;
+  padding-top:-9px;
+  font-family: RobotoSlab;
+  font-size: 22px;
+  line-height: 0;
+}
+main section p{
+    width: 90%;
+    color:$color-secondary-text;
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 1.67;
+    padding-left:12px;
+}
+.shop-button{
+    background-color: $background-section-1;
+    border-radius:22.5px;
+    border: 3px solid;
+    font-size: 20px;
+    color:$background-color-boton;
+    width: 150px; 
+    height: 40px;
+    padding:5px;
+    border-color:$background-color-boton;
+}
+.container{
+padding:9px;
+}
