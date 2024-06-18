@@ -48,6 +48,7 @@ padding-bottom:40px;
 /*second section*/
 .back-to-school{
   background-color:$background-color-vueltalcole;
+  
 }
 .h4{
   padding-top:20px;
@@ -58,29 +59,58 @@ padding-bottom:40px;
 .h5{
   text-align: center;
   font-family: "Roboto Slab";
-  font-size:20px;
+  font-size:24px;
   padding-bottom:20px;
 }
-.card{
-  display:grid;
+.h6{
+  text-align: center;
+  font-family: "Roboto Slab";
+  font-size:14px;
+  padding-bottom:20px;
+}
+.h7{
+  text-align: center;
+  font-family: "Roboto Slab";
+  font-size:14px;
+  padding-bottom:20px;
+}
+.h8{
+  text-align: center;
+  font-family: "Roboto Slab";
+  font-size:14px;
+}
+.button3{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding-top: 10px; 
+  padding-bottom: 25px;    
 }
 .Empezar-ahora{
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
   color:$color-header;
   font-family:"Roboto", sans-serif;
-  margin: 20px auto;
+  display:flex;
   font-size:20px;
   border-radius:100px;
-  background-color:$background-color-boton;
-
-.button3{
-
-}
+  background-color:$background-color-boton; 
   
 }
 .card{
+  display:grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  gap:20px;
+}
+.card{
   img{
-    width:64px;
-    height:64px;
+    width:122px;
+    height:133px;
+    border-radius: 50%;
+    object-fit: cover; 
+    margin:10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
 }
