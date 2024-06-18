@@ -1,12 +1,7 @@
-@import 'core/reset';
+@import 'core/variables';
 @import 'layout/main';
 @import 'layout/header';
 @import 'layout/footer';
 @import 'layout/hero';
 
-:root {
-    --text-primary-color:white;
-    --text-secundary-color:#6a9d6a;
-    --text-tertiary-color:black;
-    
-}
+

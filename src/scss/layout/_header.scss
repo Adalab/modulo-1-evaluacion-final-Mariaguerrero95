@@ -1,13 +1,12 @@
 .hero{
+    display:flex;
+    flex-direction:column;
+    justify-content: end;
     background-image: url(../images/cover.jpeg);
     background-size: cover;
-    background-position: center;
+    background-position: bottom right;
     background-repeat:no-repeat;
-    display:flex;
-    justify-content: center;
-    align-items: center;
     height: 552px;
-    gap:5px;
 }
 .menu {  
     position:absolute;
@@ -15,19 +14,40 @@
     left:0px;
     padding:10px;
     background-color: #6c933e;
-    width: 36.4px;
-    height: 36.8px; 
 }
 .title{
-    color:var(--text-primary-color);
-    font-family: roboto regular 400;
-}
-.title2{
-    color:var(--text-primary-color);
+    color:white;
+    padding:45px;
     font-family: roboto;
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: center;
+    align-items: center;
+}
+.title2{ 
+    height: 17px;
+    padding:50px;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: center;
+    color:$color-header;
+    font-family: roboto;
+    width: 243.3px;
+    height:16px;
+    align-items: center;
 }
 .arrow{
     text-align: center;
+
 }
 
 
