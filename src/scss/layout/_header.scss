@@ -1,1 +1,24 @@
+hero{
+    background-image: url(../images/cover.jpeg);
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:500px;
+    gap:5px;
+}
+.menu {
+    position:sticky;
+    display:flex;
+    flex-direction:top;
+}
+.hero div h1{
+    color:var($text-primary-color)
+}
+.hero div p{
+    color:var($text-primary-color)
+}
+
+
 
