@@ -40,12 +40,43 @@ main section p{
     height: 45px;
     padding:5px;
     border-color:$background-color-boton;
-   
 }
 .container{
-padding:20px;
+padding-left:12px;
+padding-bottom:40px;
 }
 /*second section*/
+.back-to-school{
+  background-color:$background-color-vueltalcole;
+}
+.h4{
+  padding-top:20px;
+  text-align: center;
+  font-family: "Roboto Slab";
+  color:rgb(116, 112, 112);
+}
+.h5{
+  text-align: center;
+  font-family: "Roboto Slab";
+  font-size:20px;
+  padding-bottom:20px;
+}
+.card{
+  display:grid;
+}
+.Empezar-ahora{
+  display: block;
+  color:$color-header;
+  font-family:"Roboto", sans-serif;
+  margin: 20px auto;
+  font-size:20px;
+  border-radius:100px
+  background-color:$background-color-boton;
+.button3{
+  
+}
+  
+}
 .card{
   img{
     width:64px;
