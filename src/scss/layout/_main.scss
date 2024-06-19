@@ -38,17 +38,16 @@ main section p{
     color:$background-color-boton;
     width: 165px; 
     height: 45px;
-    padding:5px;
+    padding:10px;
     border-color:$background-color-boton;
 }
-.container{
+.container1{
 padding-left:12px;
 padding-bottom:40px;
 }
 /*second section*/
 .back-to-school{
   background-color:$background-color-vueltalcole;
-  
 }
 .h4{
   padding-top:20px;
@@ -65,35 +64,39 @@ padding-bottom:40px;
 .h6{
   text-align: center;
   font-family: "Roboto Slab";
-  font-size:14px;
+  font-size:15px;
   padding-bottom:20px;
 }
 .h7{
   text-align: center;
   font-family: "Roboto Slab";
-  font-size:14px;
+  font-size:15px;
   padding-bottom:20px;
 }
 .h8{
   text-align: center;
-  font-family: "Roboto Slab";
-  font-size:14px;
+  font-family:"Roboto Slab";
+  font-size:15px;
 }
 .button3{
   display: flex;
   justify-content: center; 
   align-items: center;
   padding-top: 10px; 
-  padding-bottom: 25px;    
+  padding-bottom: 30px;    
 }
 .Empezar-ahora{
+  padding:10px;
+  width:200px;
+  height:60px;
+  border:none;
   display: flex;
   justify-content: center;
   align-items: center; 
   color:$color-header;
   font-family:"Roboto", sans-serif;
   display:flex;
-  font-size:20px;
+  font-size:22px;
   border-radius:100px;
   background-color:$background-color-boton; 
   
@@ -102,7 +105,7 @@ padding-bottom:40px;
   display:grid;
   grid-template-columns: 1fr;
   place-items: center;
-  gap:20px;
+  gap:10px;
 }
 .card{
   img{

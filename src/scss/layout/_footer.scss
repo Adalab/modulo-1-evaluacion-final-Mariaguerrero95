@@ -9,13 +9,17 @@ footer {
     align-items: center;
     gap: 40px;
     padding: 0 8.4px 70px 13.4px;
-
 }
-.footer-arrow img {
-    width: 38.2px;
-    height: 38.2px;
+.footer-arrow {
+    width: 38.5px;
+    height: 38.5px;
     border-radius:50px;
-    background-color: $color-header; 
+    background-color: $color-header;
+    margin-top: -14px;
+    font-size: 2.2rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color:white; 
 }
 .footer-section1{
     display: flex;
